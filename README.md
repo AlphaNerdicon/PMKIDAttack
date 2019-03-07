@@ -16,9 +16,18 @@ https://forums.hak5.org/topic/45365-module-pmkidattack/
 ```
 
 **Module installation:**
-```
-opkg update && opkg install git git-http
-cd /sd/modules/
-git clone https://github.com/n3d-b0y/PMKIDAttack.git PMKIDAttack
-chmod +x -R /sd/modules/PMKIDAttack/scripts
+```~Wifi Pineapple NAno~
+ssh into pineapple nano
+
+1. opkg update && opkg install git git-http
+2. cd /sd/modules/
+3. opkg update && opkg install git git-http
+4. git clone https://github.com/Yearta92/PMKIDAttack.git PMKIDAttack
+5. chmod +x -R /sd/modules/PMKIDAttack/scripts
+6. refresh browser interface
+7. you should see the module
+8. install dependancies
+
+~original module for the tetra can be found here: https://github.com/n3d-b0y/PMKIDAttack
+
 ```
