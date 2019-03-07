@@ -6,6 +6,7 @@ The module automates PMKID attack
 
 **Device:** Tetra/Nano
 (Nano conversion done by:  Yearta92)
+~code edited for the nano to use the sd directory due to the nanos root directory size limits
 
 [![Demo video](https://i.ibb.co/wMf1BGg/PMKIDAttack-You-Tube.png)](https://youtu.be/AU2kAd3PUz8)
 
