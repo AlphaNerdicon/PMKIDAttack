@@ -28,6 +28,9 @@ ssh into pineapple nano
 7. you should see the module
 8. install dependancies
 
+9. make sure PineAP is on before scanning (note: during scan if you have it set to 'live' the pineap will kick off towards the end of the scan, dont worry, just stop the scan to enable the attack buttons)
+
+
 ~original module for the tetra can be found here: https://github.com/n3d-b0y/PMKIDAttack
 
 ```
