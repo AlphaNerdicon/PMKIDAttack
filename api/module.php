@@ -5,6 +5,8 @@
  */
 
 namespace pineapple;
+putenv('LD_LIBRARY_PATH='.getenv('LD_LIBRARY_PATH').':/sd/lib:/sd/usr/lib');
+putenv('PATH='.getenv('PATH').':/sd/usr/bin:/sd/usr/sbin');
 
 class PMKIDAttack extends Module
 {
