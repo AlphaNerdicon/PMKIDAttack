@@ -19,7 +19,7 @@ https://forums.hak5.org/topic/45365-module-pmkidattack/
 ```~Wifi Pineapple NAno~
 ssh into pineapple nano
 
-1. opkg update && opkg install git git-http
+1. opkg update && opkg install git git-http (make sure you have a Micro SD card from this point, the pineapple root directory doesnt have the space for everything, i recommend a 16GB just to be safe)
 2. cd /sd/modules/
 3. opkg update && opkg install git git-http
 4. git clone https://github.com/Yearta92/PMKIDAttack.git PMKIDAttack
